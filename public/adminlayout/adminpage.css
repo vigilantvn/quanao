@@ -1,0 +1,54 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+#adminpage{
+    margin:10px auto;
+    height:auto;
+}
+#left_menu{
+    width:250px;
+    height:auto;
+    float:left;
+    margin-left:5px;
+    border-right:1px solid #CDCDCD;
+}
+.cap2 a:link,.cap2 a:visited{
+    margin-left:5px;
+    display:block;
+}
+.cap2{
+    display:none;
+}
+.cap1{
+    margin:10px auto;
+}
+#content{
+    width:750px;
+    float:right;
+    margin-right:5px;
+}
+#content .title{
+    margin-top:20px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+#content .phantrang{
+    margin-top:10px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #1A3A44;
+  position: relative;
+  top: 15px;
+  right: -80px;
+  content: '';
+}
+.phantrang li{
+    list-style:none;
+    float:left;
+    margin-left:20px;
+}

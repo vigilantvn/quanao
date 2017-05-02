@@ -1,0 +1,291 @@
+﻿#pages {
+width: 980px;
+height: auto;
+margin: 10px auto;
+}
+
+#right_menu {
+margin-top: 10px;
+width: 240px;
+border: 1px solid #CDCDCD;
+float: left;
+margin-left: 5px;
+}
+
+#main_menu {
+margin-top: 10px;
+width: 732px;
+float: left;
+border:1px solid #dedede;
+}
+
+#main_menu .sanpham {
+display: inline-block;
+list-style: none;
+position: relative;
+margin-top: 2px;
+padding: 0px;
+margin-left: 7px;
+border: 1px dotted #808080;
+}
+
+.sanpham li {
+}
+
+.sanpham_info {
+border: 1px solid #000000;
+position: absolute;
+margin-top: -26px;
+}
+
+#footer {
+margin-top: 20px;
+width: 980px;
+height: auto;
+background-color: azure;
+display: inline-block;
+}
+
+#footer p {
+display: inline-block;
+float: right;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+margin-right: 5px;
+margin-top: 10px;
+font-weight: bold;
+}
+
+#footer ul {
+float: left;
+}
+
+#footer ul li {
+display: inline-block;
+list-style: none;
+padding: 5px;
+border-right: 1px solid #CDCDCD;
+}
+
+#header {
+/*background: url(header.gif) top left repeat-x;*/
+background-color:#337AB7;
+height: 64px;
+}
+
+.logo {
+width: 20%;
+height: 64px;
+background: url(logo2.gif) top left no-repeat;
+display: inline-block;
+}
+
+#menu {
+width: 55%;
+float: right;
+height: 64px;
+
+}
+
+#menu ul {
+margin-top:2px;
+}
+
+#menu ul li {
+    
+/*height: 64px;*/
+display: inline-block;
+float: left;
+padding: 20px 30px 0px 0px;
+text-align: center;
+        
+}
+
+#menu ul li a {
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: white;
+display:block;
+}
+
+#menu ul li a:hover, .menu ul li a:active {
+    background: #fff;
+    color: #8b0000;
+    
+}
+
+.shopping {
+width: 18%;
+height: 64px;
+display: inline;
+float: right;
+right: 0;
+top: 0;
+margin-right: 10px;
+}
+
+.shopping a {
+background: url(cart-link1.gif) left no-repeat;
+padding-left: 30px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: white;
+font-weight: bold;
+}
+
+.shopping span {
+padding-left: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: white;
+}
+
+#noibat {
+height: auto;
+margin-top: 5px;
+float: left;
+}
+
+#noibat #imgnoibat {
+width: 460px;
+float: left;
+}
+
+#noibat #logonoibat {
+width: 500px;
+float: right;
+}
+
+.w3-section {
+top: 0px;
+}
+/*================filter*/
+.filter {
+width: 240px;
+border: 1px solid #CDCDCD;
+margin-top: 1px;
+display: block;
+}
+
+.filter h2 {
+background-color: #337AB7;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+font-size: 17px;
+margin:0px;
+vertical-align:top;
+}
+
+.filter .search_field {
+padding: 2px;
+border: 2px solid #dedede;
+background-color: #d3d0d0;
+width: 240px;
+}
+
+.filter .button_field {
+background-color: #337AB7;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+font-size: 12px;
+text-align: center;
+margin-left: 20px;
+margin-top:5px;
+}
+/*-------------------------contact------------------*/
+#contact{
+    display:inline-block;
+    border:1px solid #CDCDCD;
+    margin-left:5px;
+    width:733px;
+}
+#contact h1{
+    background:#337AB7 repeat-x;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    vertical-align:top;
+    margin:0px;
+}
+#contact h1 .contact_title{
+    
+    
+}
+.contact_info{
+
+}
+.contact_info  li{
+
+}
+.contact_info li .bando {
+}
+
+/*-------------------------contact------------------*/
+
+/*===========menu sanpham========*/
+.menu_sp{
+    margin-top:5px;
+}
+.menu_sp ul{}
+.menu_sp ul li {
+    list-style:none;
+}
+.menu_sp ul li a{
+    text-decoration:none;
+    background:url(cat.gif) no-repeat 0 4px;
+    padding-left:17px;
+    display:block;/*dung display block de hover all row selected*/
+}
+.menu_sp ul li :hover{
+    background-color:aquamarine;
+}
+.menu_sp h2{
+    background:#337AB7 repeat-x;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    vertical-align:top;
+    margin:0px;
+    font-size:14px;
+}
+/*===========menu sanpham========*/
+/*============san pham item =============*/
+.sanpham_details{
+    width:980px;
+    
+}
+.sanpham_details li{
+    list-style:none;
+}
+.sanpham_details li a{
+    
+    float:left;
+}
+.sanpham_details_info{
+    float:left;
+    margin-left:10px;
+    width:450px;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:auto;
+}
+.sanpham_lienquan{
+    float:left;
+}
+.sanpham_lienquan h1{
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    margin-left:10px;
+    text-decoration:underline;
+    
+}
+/*============san pham item =============*/
+.title_menu{
+    clear:both;
+    background-color:palevioletred;
+}
