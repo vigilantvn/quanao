@@ -1,4 +1,4 @@
-﻿<style>
+<style>
     thead th {
         background-color: blue;
         color: red;
@@ -7,13 +7,21 @@
     tbody td {
         background-color: #EEEEEE;
     }
+    input[type="button"],  input[type="submit"] {
+        background: #2a88ad;
+        padding: 8px 20px 8px 20px;
+        border-radius: 5px;
+        color: #fff;
+        border: 1px solid #257c9e;
+        font-size: 15px;
+    }
 </style>
 @extends('admin.layout.index')
 @section('content')
 <div id="content">
-    <h1 class="title">Danh sách don hang</h1>
+    <h1 class="title">Danh sách đơn hàng</h1>
     <form method="get" action="admin/donhang/baocao" enctype="multipart/form-data">
-        <input type="submit" value="xuat bao cao" id="baocao" />
+        <input type="submit" value="Xuất báo cáo" id="baocao" />
     </form>
     <div class="table-responsive">
         <table id="myTable" class="table table-hover">

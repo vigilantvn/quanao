@@ -19,7 +19,7 @@
             @foreach($nsp->to_loaisanpham as $lsp)
                 
                 <li>
-<a href="{{$lsp->ID_loaisp}}/{{$lsp->Ten_loaisp_tomtat}}.html">{{$lsp->Ten_loaisp}}</a></li>
+<a href="sanphamtl/{{$lsp->ID_loaisp}}/{{$lsp->Ten_loaisp_tomtat}}.html">{{$lsp->Ten_loaisp}}</a></li>
                 
             @endforeach
         </ul>

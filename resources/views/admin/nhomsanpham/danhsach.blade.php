@@ -33,10 +33,10 @@
                     <td>{{    $tt->Ten_nhomsp}}</td>
                     <td>{{    $tt->Ten_nhomsp_tomtat}}</td>
                     <td>
-                        <a href="nhomsanpham/sua/{{    $tt->ID_nhomsp}}">Sua</a>
+                        <a href="admin/nhomsanpham/sua/{{    $tt->ID_nhomsp}}">Sua</a>
                     </td>
                     <td>
-                        <a href="nhomsanpham/xoa/{{    $tt->ID_nhomsp}}">Xoa</a>
+                        <a href="admin/nhomsanpham/xoa/{{    $tt->ID_nhomsp}}">Xoa</a>
                     </td>
                 </tr>
                 @endforeach

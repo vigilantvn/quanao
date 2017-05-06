@@ -1,4 +1,4 @@
-﻿<style>
+<style>
     thead th {
     background-color: blue;
     color: red;
@@ -46,10 +46,10 @@ tbody td {
                     <td>{{$tt->Ten_loaisp_tomtat}}</td>
                     <td>{{$tt->updated_at}}</td>
                     <td>
-                        <a href="loaisanpham/sua/{{$tt->ID_loaisp}}">Sua</a>
+                        <a href="admin/loaisanpham/sua/{{$tt->ID_loaisp}}">Sua</a>
                     </td>
                     <td>
-                        <a href="loaisanpham/xoa/{{$tt->ID_loaisp}}">Xoa</a>
+                        <a href="admin/loaisanpham/xoa/{{$tt->ID_loaisp}}">Xoa</a>
                     </td>
                 </tr>
                 @endforeach

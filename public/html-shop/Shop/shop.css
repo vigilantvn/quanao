@@ -33,9 +33,11 @@ border: 1px dotted #808080;
 }
 
 .sanpham_info {
-border: 1px solid #000000;
+border: 3px solid #337AB7;
 position: absolute;
 margin-top: -26px;
+font-family:Arial, Helvetica, sans-serif;
+color:crimson;
 }
 
 #footer {

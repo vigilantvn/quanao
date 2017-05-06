@@ -43,8 +43,8 @@
                         
                         @endif
                     </td>
-                    <td><a href="login/sua/{{$tt->id}}">Sua</a></td>
-                    <td><a href="login/xoa/{{$tt->id}}">Xoa</a></td>
+                    <td><a href="admin/login/sua/{{$tt->id}}">Sua</a></td>
+                    <td><a href="admin/login/xoa/{{$tt->id}}">Xoa</a></td>
                 </tr>
                 @endforeach
             </tbody>

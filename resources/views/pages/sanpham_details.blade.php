@@ -1,3 +1,12 @@
+<style>
+        input[type="button"] {
+        background: #2a88ad;
+        border-radius: 1px;
+        color: #fff;
+        border: 1px solid #257c9e;
+        font-size: 15px;
+    }
+</style>
 @extends('layout.index')
 @section('content')
 <div id="main_menu">
@@ -10,7 +19,7 @@
                 <br />
                 <span>{{$sanpham->Mota}}.</span>
                 <br />
-                <span style="font-weight:bold">{{$sanpham->Gia}} VNĐ</span>
+                <span style="font-weight:bold">Giá :{{number_format($sanpham->Gia)}} VNĐ</span>
                 <br />
                 <span>Kich Thuoc : {{$sanpham->Kichthuoc}}</span>
                 <br />

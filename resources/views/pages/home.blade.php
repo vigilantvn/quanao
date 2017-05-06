@@ -6,7 +6,7 @@
     @foreach($sanpham as $sp)
     <ul class="sanpham">
         <li>
-            <a href="sanpham/{{$sp->ID_sp}}">
+            <a href="sanpham/{{$sp->ID_sp}}/{{$sp->Ten_sp_tomtat}}.html">
                 <img src="sanpham_img\{{$sp->Hinh}}" width="231" height="383" />
             </a>
             <div class="sanpham_info">

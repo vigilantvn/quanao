@@ -12,7 +12,7 @@
     }
 
     input[type=submit] {
-        width: 100%;
+        width: 50%;
         background-color: #4CAF50;
         color: white;
         padding: 14px 20px;
@@ -20,6 +20,7 @@
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        
     }
 
         input[type=submit]:hover {
@@ -36,7 +37,7 @@
 @extends('admin.layout.index')
 @section('content')
 <div id="content">
-    <h3>Sua thong tin Nhom san pham</h3>
+    <h1 class="title">Sua thong tin Nhom san pham</h1>
     @if(count($errors)>0)
     <div class="aler_thongbao">
         @foreach($errors->all() as $err)

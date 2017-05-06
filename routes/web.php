@@ -15,9 +15,9 @@
 Route::get('trangchu','homeController@trangchu');
 Route::get('admin/login','loginController@loginadmin');
 Route::post('admin/login','loginController@postloginadmin');
-//Route::get('sanpham/{id}/{TenKhongDau}.html','homeController@sanpham_details');
-Route::get('sanpham/{id}','homeController@sanpham_details');
-Route::get('{id}/{TenKhongDau}.html','homeController@sanpham_theloai');
+Route::get('sanpham/{id}/{TenKhongDau}.html','homeController@sanpham_details');
+//Route::get('sanpham/{id}','homeController@sanpham_details');
+Route::get('sanphamtl/{id}/{TenKhongDau}.html','homeController@sanpham_theloai');
 Route::get('lienhe','homeController@lienhe');
 Route::get('dangky','nguoidungController@getdangky');
 Route::post('dangky','nguoidungController@postdangky');
@@ -101,6 +101,7 @@ Route::group(['prefix'=>'admin','middleware'=>'adminlogin'],function(){
         Route::get('sua/{ID}','loginController@getsua');
         Route::post('sua/{ID}','loginController@postsua');
         Route::get('xoa/{ID}','loginController@getxoa');
+        Route::get('logout','loginController@logoutadmin');
     });
     Route::group(['prefix'=>'donhang'],function(){
         Route::get('danhsach','donhang@danhsachdonhang');

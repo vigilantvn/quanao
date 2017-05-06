@@ -1,12 +1,13 @@
-﻿<style>
-    thead th {
+<style>
+    /*
+    table#mytable thead th {
         background-color: blue;
         color: red;
     }
-
+            
     tbody td {
         background-color: #EEEEEE;
-    }
+    }*/
 </style>
 @extends('admin.layout.index')
 @section('content')
@@ -29,18 +30,18 @@
         <table id="myTable" class="table table-hover">
             <thead>
                 <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Ten san pham</th>
-                    <th scope="col">Loai san pham</th>
-                    <th scope="col">Mo Ta</th>
-                    <th scope="col">Ten san pham tom tat</th>
-                    <th scope="col">Gia</th>
-                    <th scope="col">Gia khuyen mai</th>
-                    <th scope="col">Hinh</th>
-                    <th scope="col">Kich thuoc</th>
-                    <th scope="col">Ngay cap nhat</th>
-                    <th scope="col">Xoa</th>
-                    <th scope="col">Sua</th>
+                    <th class="col">ID</th>
+                    <th class="col">Tên</th>
+                    <th class="col">Loại</th>
+                    <th class="col">Mô Tả</th>
+                    <th class="col">Tên tóm tắt</th>
+                    <th class="col">Giá</th>
+                    <th class="col">Giá KM</th>
+                    <th class="col">Hình</th>
+                    <th class="col">Kích thước</th>
+                    <th class="col">Ngày</th>
+                    <th class="col">Xóa</th>
+                    <th class="col">Sửa</th>
                 </tr>
             </thead>
             <tbody>
@@ -61,10 +62,10 @@
                     <td>{{$tt->ID}}</td>
                     <td>{{$tt->updated_at}}</td>
                     <td>
-                        <a href="sanpham/sua/{{$tt->ID_sp}}">Sua</a>
+                        <a href="admin/sanpham/sua/{{$tt->ID_sp}}">Sua</a>
                     </td>
                     <td>
-                        <a href="sanpham/xoa/{{    $tt->ID_sp}}">Xoa</a>
+                        <a href="admin/sanpham/xoa/{{$tt->ID_sp}}">Xoa</a>
                     </td>
                 </tr>
                 @endforeach

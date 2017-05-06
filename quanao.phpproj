@@ -96,6 +96,7 @@
     <Compile Include="resources\lang\en\pagination.php" />
     <Compile Include="resources\lang\en\passwords.php" />
     <Compile Include="resources\lang\en\validation.php" />
+    <Compile Include="resources\views\admin\donhang\donhang.blade.php" />
     <Compile Include="resources\views\admin\layout\index.blade.php" />
     <Compile Include="resources\views\admin\layout\login.php" />
     <Compile Include="resources\views\admin\layout\menu.blade.php" />
@@ -264,6 +265,7 @@
     <Folder Include="resources\views" />
     <Folder Include="resources" />
     <Folder Include="resources\views\admin\" />
+    <Folder Include="resources\views\admin\donhang\" />
     <Folder Include="resources\views\admin\layout\" />
     <Folder Include="resources\views\admin\loaisanpham\" />
     <Folder Include="resources\views\admin\login\" />

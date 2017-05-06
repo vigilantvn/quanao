@@ -78,6 +78,7 @@ class sanphamController extends Controller
 
     }
     public function getsua($id){
+
         try{
             $sanpham=sanpham::find($id);
             $loaisanpham=loaisanpham::all();

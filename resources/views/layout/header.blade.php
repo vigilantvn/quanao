@@ -1,8 +1,8 @@
 <div id="header">
     <div class="logo"></div>
     <div class="shopping">
-        <a href="cartsp">Your Shopping Cart</a>
-        <span>Cart : 
+        <a href="cartsp">Giỏ hàng</a>
+        <span>Số lượng : 
             @if(Session::has('cart'))
                 {{count(Session::get('cart'))}}
             @else
@@ -15,10 +15,8 @@
     <div id="menu">
         <ul>
             <li><a href="trangchu">Trang chủ</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">The Store</a></li>
+            <li><a href="cartsp">Giỏ hàng</a></li>
             <li><a href="lienhe">Liên Hệ</a></li>
-            <li><a href="#">My Account</a></li>
         </ul>
     </div>
 </div>
